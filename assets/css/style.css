@@ -1,0 +1,76 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+}
+h1 {
+    line-height: 1.25;
+    margin: 1em 0 0;
+}
+p {
+    margin: 0.5em 0;
+}
+
+/*****************************************************************************
+    CodeFlow Übung lev2_1: Farben Umschalter
+*/
+#umschalter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#umschalter li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 18px;
+    border: 3px solid black;
+}
+#grauTaste {
+    background: gray;
+}
+#weissTaste {
+    background: white;
+}
+#blauTaste {
+    background: blue;
+}
+#gelbTaste {
+    background: yellow;
+}
+
+/*****************************************************************************
+    CodeFlow Übung lev2_2: KeyCodeInfo
+*/
+#lev2_2 {
+    background: #eee;
+}
+#lev2_2 h2 {
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+    line-height: 1.25;
+}
+#lev2_2 div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#lev2_2 p {
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.bgLightBlue {
+    background: #b8e9ff;
+}
+.bgWhite {
+    background: white;
+}
